@@ -1,0 +1,395 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed; /* Aquí especificas la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  color: white; /* Ajusta el color del texto para que sea visible sobre el fondo oscuro */
+}
+
+.header {
+  position: relative;
+  width: 1000px; /* Ancho del contenedor */
+  height: auto; /* Altura del contenedor basada en su contenido */
+ 
+  border-radius: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+  overflow: hidden; /* Para que los elementos no sobresalgan del contenedor */
+  border: px solid rgb(245, 245, 245); /* Añade un borde blanco con transparencia */
+}
+.edit-profile .ff-fri-2 {
+  background: url('./images/ff_fri_2.jpeg') 50% / cover no-repeat;
+  margin-right: 0.5px;
+  width: 134px;
+  height: 135px;
+}
+.edit-profile .fridge-finds {
+  margin: 74.5px 0 10.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-5 {
+  margin-bottom: 81px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.edit-profile .ellipse-9 {
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
+}
+.edit-profile .container-3 {
+  position: relative;
+  margin: 0 0 127px 52px;
+  display: flex;
+  padding-top: 35px;
+  width: 210px;
+  height: 210px;
+  box-sizing: border-box;
+}
+.edit-profile .name {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-4 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  padding: 19.5px 0 18.5px 5px;
+  width: 287px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.edit-profile .name-1 {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-11 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  padding: 19.5px 0 18.5px 5px;
+  width: 287px;
+  box-sizing: border-box;
+}
+.edit-profile .supermarket-name-1 {
+  margin: 17.5px 0 19.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-13 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  box-sizing: border-box;
+}
+.edit-profile .container-8 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 3px 48.5px 67px;
+  width: 796px;
+  box-sizing: border-box;
+}
+.edit-profile .name-2 {
+  margin: 0 446px 47.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .password {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-7 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  padding: 18.5px 0 19.5px 5px;
+  width: 287px;
+  box-sizing: border-box;
+}
+.edit-profile .supermarket-name-3 {
+  margin: 17.5px 0 19.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-12 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 0 29px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 796px;
+  box-sizing: border-box;
+}
+.edit-profile .country {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-6 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  padding: 19.5px 0 18.5px 1px;
+  width: 287px;
+  box-sizing: border-box;
+}
+.edit-profile .supermarket-name-4 {
+  margin: 17.5px 0 19.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-1 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 3px 29px 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 796px;
+  box-sizing: border-box;
+}
+.edit-profile .city {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-16 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  padding: 18.5px 3px 19.5px 0;
+  width: 287px;
+  box-sizing: border-box;
+}
+.edit-profile .supermarket-name-5 {
+  margin: 17.5px 0 19.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 2px 30px 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 796px;
+  box-sizing: border-box;
+}
+.edit-profile .direction {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-10 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: relative;
+  margin-right: 56.1px;
+  display: flex;
+  padding: 18.5px 17px 19.5px 0;
+  width: 287px;
+  box-sizing: border-box;
+}
+.edit-profile .supermarket-name {
+  margin: 16.5px 0 20.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-9 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 0 125.5px 70px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 75.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.edit-profile .return {
+  margin-left: 52px;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.edit-profile .line-2 {
+  border-radius: 100px;
+  position: absolute;
+  left: 50%;
+  top: 93px;
+  translate: -50% 0;
+  width: 116px;
+  height: 306px;
+}
+.edit-profile .name-3 {
+  position: absolute;
+  left: 179.1px;
+  top: 707.5px;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .rectangle-105 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+}
+.edit-profile .rectangle-107 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 287px;
+  height: 88px;
+}
+.edit-profile .mail {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-14 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  padding: 18.5px 0 19.5px 5px;
+  width: 287px;
+  box-sizing: border-box;
+}
+.edit-profile .supermarket-name-2 {
+  position: relative;
+  margin: 17.5px 0 19.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.edit-profile .container-15 {
+  border-radius: 30px;
+  border: 1px solid #000000;
+  background: #FFFFFF;
+  position: absolute;
+  left: 85px;
+  top: 688px;
+  right: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.edit-profile {
+  background: #FAFCEE;
+  display: flex;
+  padding: 18px 73px 155.5px 21px;
+  width: 960px;
+  box-sizing: border-box;
+}

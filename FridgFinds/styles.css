@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed; /* Aquí especificas la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    color: white; /* Ajusta el color del texto para que sea visible sobre el fondo oscuro */
+}
+
+.container {
+    position: relative;
+    
+}
+
+.main-image {
+    width: 1000px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto;
+}
+
+.icon-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+}
+
+.icon-button img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-button:hover {
+    background-color: #727272;
+}
+
+/* Custom positions for each button */
+#search-button {
+    top: -820px;
+    left:-230px;
+    width: 320px
+}
+
+#profile-button {
+    top: -1220px;  /* Ajusta esta propiedad para mover la imagen hacia arriba o abajo */
+    right: -180px; /* Ajusta esta propiedad para mover la imagen hacia la izquierda o derecha */
+    width: 325px;
+    height: 325px;
+}
+
+#list-button {
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+}
+
+#fridge-button {
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+}
+
+#recipe-button {
+    bottom: -50px;
+    left: -50px;
+}
+
+#carrito {
+    top: -420px;  /* Ajusta esta propiedad para mover la imagen hacia arriba o abajo */
+    right: -180px; /* Ajusta esta propiedad para mover la imagen hacia la izquierda o derecha */
+    width: 325px;
+    height: 325px;
+}
+.container {
+    position: relative;
+    top: 100px; /* Ajusta este valor para mover el contenedor hacia abajo */
+}

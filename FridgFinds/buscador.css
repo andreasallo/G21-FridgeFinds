@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed; /* Aquí especificas la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    color: white; /* Ajusta el color del texto para que sea visible sobre el fondo oscuro */
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+.buscador .image-2 {
+  opacity: 0.5;
+  background: url('./images/image_2.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: 354px;
+  height: 403px;
+}
+.buscador .ff-fri-2 {
+  background: url('./images/ff_fri_2.jpeg') 50% / cover no-repeat;
+  margin-right: 0.5px;
+  width: 134px;
+  height: 135px;
+}
+.buscador .fridge-finds {
+  margin: 74.5px 0 10.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.buscador .container-3 {
+  margin-bottom: 87px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.buscador .rectangle-26 {
+  border-radius: 10px;
+  border: 5px solid #00142D;
+  background: #000000;
+  transform: rotate(46.966deg);
+  position: relative;
+  left: -10px;
+  top: 20px;
+  margin: 12px 29.3px  0;
+  width: 63.7px;
+  height: 6.9px;
+}
+.buscador .buscar-recetas-oingredientes {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #A0A0A0;
+  position: relative;
+  
+  
+}
+.buscador .frame-1 {
+  border: 1px solid #D0D0D0;
+  background: #CCCCCC;
+  position: relative;
+  margin-bottom: 17.9px;
+  padding: 9px 23px;
+  width: 724px;
+  box-sizing: border-box;
+  left: -30px;
+  top: -8px;
+}
+.buscador .container-2 {
+  margin: 0 0 646.1px 42px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.buscador .fridge-finds-1 {
+  opacity: 0.5;
+  margin: 0 100.9px;
+  align-self: flex-end;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 128px;
+  color: #00142D;
+}
+.buscador .container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.buscador .container {
+  position: relative;
+  left: -860px;
+  top: 200px;
+  width: 62px;
+  height: 59px;
+}
+.buscador .search {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.buscador {
+  background: #FAFCEE;
+  display: flex;
+  padding: 18px 81px 300px 21px;
+  width: 960px;
+  box-sizing: border-box;
+}
+/* Estilos para el botón "Añadir a la lista de la compra" */
+.add-ingredient-button {
+  background-color: #0d0b83; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none; /* Quitamos el borde del botón */
+  border-radius: 6px; /* Añadimos bordes redondeados al botón */
+  padding: 10px 20px; /* Añadimos espacio alrededor del texto del botón */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+}
+
+/* Estilos para el botón "Ver lista de la compra" */
+.view-list-button {
+  background-color: #0d0b83; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border: none; /* Quitamos el borde del botón */
+  border-radius: 6px; /* Añadimos bordes redondeados al botón */
+  padding: 10px 20px; /* Añadimos espacio alrededor del texto del botón */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+  margin-top: 10px; /* Añadimos un margen superior para separar los botones */
+}
+.fridge-finds a {
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto del contenedor padre */
+  cursor: pointer; /* Cambia el cursor a pointer para indicar que es clickable */
+}

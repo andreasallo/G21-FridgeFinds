@@ -1,0 +1,278 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed; /* Aquí especificas la imagen de fondo */
+  background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.header {
+  position: relative;
+  width: 1000px;
+  height: auto;
+  border-radius: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  border: px solid rgb(245, 245, 245);
+}
+
+.user-page .ff-fri-2 {
+  background: url('./images/ff_fri_2.jpeg') 50% / cover no-repeat;
+  margin-right: 0.5px;
+  width: 134px;
+  height: 135px;
+}
+
+.user-page .fridge-finds {
+  margin: 74.5px 0 10.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+
+.user-page .container {
+  margin-bottom: 81px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+  
+}
+
+.user-page .ellipse-9 {
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
+}
+
+.user-page .container-6 {
+  position: relative;
+  margin: 0 0 17.5px 102px;
+  display: flex;
+  align-self: center;
+  padding-top: 35px;
+  width: 210px;
+  height: 210px;
+  box-sizing: border-box;
+}
+
+.user-page .toni-lunar {
+  margin: 0 0 80.5px 102px;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+  position: relative;
+  left: -60px;
+}
+
+.user-page .supermarket-name {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+
+.user-page .container-2 {
+  border-radius: 30px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 44px;
+  display: flex;
+  padding: 30.5px 1px 30.5px 0;
+  width: 913px;
+  box-sizing: border-box;
+  margin-top: 20px; /* Add this to move container down */
+}
+
+.user-page .supermarket-name-1 {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+
+.user-page .container-5 {
+  border-radius: 30px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 44px;
+  display: flex;
+  padding: 30.5px 1px 30.5px 0;
+  width: 913px;
+  box-sizing: border-box;
+  margin-top: 20px; /* Add this to move container down */
+}
+
+.user-page .supermarket-name-4 {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+
+.user-page .container-7 {
+  border-radius: 30px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 44px;
+  display: flex;
+  padding: 30.5px 1px 30.5px 0;
+  width: 913px;
+  box-sizing: border-box;
+  margin-top: 20px; /* Add this to move container down */
+}
+
+.user-page .supermarket-name-3 {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+
+.user-page .container-1 {
+  border-radius: 30px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 92px;
+  display: flex;
+  padding: 30.5px 1px 30.5px 0;
+  width: 913px;
+  box-sizing: border-box;
+  margin-top: 20px; /* Add this to move container down */
+}
+
+.user-page .log-out {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+  position: relative;
+  left: 73px;
+}
+
+.user-page .container-4 {
+  border-radius: 30px;
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 0 99.5px 103px;
+  display: flex;
+  align-self: center;
+  padding: 34.5px 1px 27.5px 0;
+  width: 913px;
+  box-sizing: border-box;
+  margin-top: 20px; /* Add this to move container down */
+  left: -30px;
+  top: -0px;
+}
+
+.supermarket-name-2-sub5 {
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.333;
+}
+
+.supermarket-name-2 {
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.333;
+}
+
+.user-page .supermarket-name-2 {
+  margin-left: 102px;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+
+.user-page .container-3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.user-page .line-2 {
+  border-radius: 100px;
+  position: absolute;
+  left: 50%;
+  top: 93px;
+  translate: -50% 0;
+  width: 116px;
+  height: 306px;
+}
+
+.user-page {
+  background: #FAFCEE;
+  padding: 18px 21px 49.5px 21px;
+  width: 960px;
+  box-sizing: border-box;
+}
+.fridge-finds a {
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto del contenedor padre */
+  cursor: pointer; /* Cambia el cursor a pointer para indicar que es clickable */
+}
+.log-out {
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D; /* Cambia el color del texto para que se ajuste al diseño */
+  transition: color 0.3s ease; /* Agrega una transición suave al color del texto */
+}
+
+.log-out:hover {
+  color: #a30f0f; /* Cambia el color del texto al pasar el mouse para que no sea tan destacado */
+}
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #00142D;
+  position: relative;
+  left: 250px;
+}
+.profile-image {
+  position: relative;
+  top: -1500px; /* Ajusta esta propiedad según sea necesario para posicionar la imagen */
+  left: -300px;
+  width: 300px; /* Cambia este valor para ajustar el ancho de la imagen */
+}
+.user-page {
+  background: #FAFCEE;
+  padding: 18px 21px 49.5px 21px;
+  width: 1000px; /* Cambia este valor para ajustar el ancho del contenedor */
+  height: 1700px; /* Puedes quitar esta propiedad para que la altura se ajuste automáticamente al contenido */
+  box-sizing: border-box;
+}
+
+
+

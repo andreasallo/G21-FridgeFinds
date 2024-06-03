@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BUSCADOR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radley:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="buscador.css" />
+</head>
+<body>
+    <div class="buscador">
+        <div class="image-2"></div>
+        <div class="container-1">
+            <div class="container-3">
+                <div class="ff-fri-2"></div>
+                <div class="fridge-finds">
+                  <a href="index.html">FridgeFinds</a>
+              </div>
+            </div>
+            <div class="container-2">
+                <div class="rectangle-26"></div>
+                <div class="frame-1">
+                    <input type="text" class="ingredient-input" placeholder="Añadir ingredientes..." id="comida">
+                    <button class="add-ingredient-button" onclick="agregarIngrediente(document.getElementById('comida').value)">Añadir a la lista de la compra</button>
+                    <button class="view-list-button" onclick="verListaCompra()">Ver lista de la compra</button>
+                </div>
+            </div>
+            <span class="fridge-finds-1">FridgeFinds</span>
+        </div>
+        <img class="container" src="container_14_x2.svg" />
+        <div class="frame-2"></div>
+    </div>
+    <script src="script.js">
+      function verListaCompra() {
+    // Redireccionar a la pantalla de lista de la compra
+    window.location.href = "lista_de_la_compra_3.html";
+}
+    </script>
+</body>
+</html>

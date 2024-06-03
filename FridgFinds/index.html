@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen en HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="fotos_mias/esta.png" alt="Plantilla" class="main-image">
+    <main>
+        <div class="icon-buttons">
+            <button class="icon-button" id="search-button" onclick="redirectToSearch()">
+                <img src="fotos_mias/image-fotor-20240530195332.png" alt="Search">
+            </button>
+            <button class="icon-button" id="profile-button"onclick="goToUserPage()">
+                <img src="fotos_mias/image-fotor-2024053020251.png" alt="Profile">
+            </button>
+            <button class="icon-button" id="carrito"onclick="redirectToCart()">
+                <img src="fotos_mias\image-fotor-2024053113039.png" alt="Profile">
+            </button>
+        </div>
+    </main>
+  </div>
+  <script>
+      function redirectToSearch() {
+          window.location.href = "lista_de_la_compra_3.html";  // Cambia "lista_de_la_compra_3.html" por el nombre de tu archivo HTML de destino
+      }
+      function redirectToCart() {
+          window.location.href = "compra.html";
+      }
+      function goToUserPage() {
+            window.location.href = "user_page.html"; // Redirige a user_page.html
+        }
+  
+  </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed; /* Aquí especificas la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  color: white; /* Ajusta el color del texto para que sea visible sobre el fondo oscuro */
+}
+
+.container {
+  position: relative;
+  width: 1000px; /* Ancho del contenedor */
+  height: auto; /* Altura del contenedor basada en su contenido */
+ 
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+  overflow: hidden; /* Para que los elementos no sobresalgan del contenedor */
+  border: px solid rgb(245, 245, 245); /* Añade un borde blanco con transparencia */
+}
+.receta .ff-fri-2 {
+  background: url('./images/ff_fri_2.jpeg') 50% / cover no-repeat;
+  margin-right: 0.5px;
+  width: 134px;
+  height: 135px;
+}
+.receta .fridge-finds {
+  margin: 74.5px 0 10.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.receta .container {
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.receta .pancakes {
+  margin: 0 0 57px 76.3px;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 64px;
+  color: #00142D;
+}
+.receta .istockphoto-482018310612-x-6121 {
+  border-radius: 30px;
+  background: url('./images/istockphoto_482018310612_x_6121.jpeg') 50% / cover no-repeat;
+  margin-right: 37px;
+  width: 356px;
+  height: 214px;
+}
+.receta .calories-150-kcal-protein-4-gfat-5-gcarbohydrates-20-g {
+  margin: 27px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+.receta .container-1 {
+  margin: 0 10.4px 33.5px 0;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.receta .ingedients {
+  margin: 0 70px 16px 70px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.receta .gflour-25-gsugar-15-gbaking-powder-3-gsalt-250-ml-milk-1-egg-30-ml-melted-butter {
+  margin: 0 70px 33px 70px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+.receta .method {
+  margin: 0 70px 16px 70px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.receta .in-alarge-mixing-bowl-combine-the-flour-sugar-baking-powder-and-salt-mix-well-to-ensure-all-the-dry-ingredients-are-evenly-distributed-2-in-another-bowl-or-alarge-measuring-cup-whisk-together-the-milk-egg-and-melted-butter-3-pour-the-wet-ingredients-into-the-dry-ingredients-stir-gently-until-just-combined-the-batter-should-be-slightly-lumpy-overmixing-can-make-the-pancakes-tough-4-heat-agriddle-or-non-stick-frying-pan-over-medium-heat-lightly-grease-with-butter-or-oil-5-pour-about-14-cup-of-batter-onto-the-griddle-or-pan-for-each-pancake-cook-until-bubbles-form-on-the-surface-and-the-edges-look-set-about-23-minutes-flip-the-pancakes-and-cook-for-another-12-minutes-or-until-golden-brown-and-cooked-through-6-serve-the-pancakes-warm-with-your-favourite-toppings-such-as-syrup-butter-fresh-fruits-or-whipped-cream {
+  margin: 0 70px 30px 70px;
+  display: inline-block;
+  align-self: flex-start;
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+.receta .tips {
+  margin: 0 70px 41.5px 70px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.receta .consistency-if-the-batter-is-too-thick-add-alittle-more-milk-if-its-too-thin-add-abit-more-flour-heat-control-make-sure-the-pan-or-griddle-is-properly-heated-too-hot-and-the-pancakes-will-burn-outside-while-remaining-raw-inside-too-cold-and-they-will-not-cook-properly-greasing-lightly-grease-the-pan-with-butter-or-oil-before-each-batch-to-prevent-sticking-and-to-ensure-even-browning {
+  margin: 0 55px 56.5px 55px;
+  display: inline-block;
+  align-self: flex-start;
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+.receta .return {
+  margin: 0 0 46.5px 60.3px;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.receta .rectangle-67 {
+  background: #FAFCEE;
+  margin-left: 59.3px;
+  align-self: center;
+  width: 719px;
+  height: 66px;
+}
+.receta {
+  background: #FAFCEE;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 0 0 21px;
+  width: 960px;
+  box-sizing: border-box;
+}

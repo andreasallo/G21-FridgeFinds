@@ -1,0 +1,261 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed; /* Aquí especificas la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  color: white; /* Ajusta el color del texto para que sea visible sobre el fondo oscuro */
+}
+
+.header {
+  position: relative;
+  width: 1000px; /* Ancho del contenedor */
+  height: auto; /* Altura del contenedor basada en su contenido */
+ 
+  border-radius: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+  overflow: hidden; /* Para que los elementos no sobresalgan del contenedor */
+  border: px solid rgb(245, 245, 245); /* Añade un borde blanco con transparencia */
+}
+.compra .ff-fri-2 {
+  background: url('./images/ff_fri_2.jpeg') 50% / cover no-repeat;
+  margin-right: 0.5px;
+  width: 134px;
+  height: 135px;
+}
+.compra .fridge-finds {
+  margin: 74.5px 0 10.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.compra .container-4 {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.compra .mapa-1 {
+  background: url('./images/mapa_1.jpeg') 50% / cover no-repeat;
+  position: absolute;
+  left: -40px;
+  top: -30px;
+  width: 720px;
+  height: 800px;
+}
+.compra .frame-9 {
+  position: relative;
+  margin: 0 0 102px 37px;
+  align-self: center;
+  width: 671px;
+  height: 555px;
+}
+.compra .image-4 {
+  background: url('./images/image_4.png') 50% / cover no-repeat;
+  margin: 16px 5px 14px 0;
+  width: 26px;
+  height: 35px;
+}
+.compra .supermarkt-location {
+  margin: 1px 36.1px 0 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 25px;
+  color: #00142D;
+}
+.compra .image-5 {
+  background: url('./images/image_6.png') 50% / cover no-repeat;
+  margin: 2px 8px 3px 0;
+  width: 61px;
+  height: 60px;
+}
+.compra .supermarkt-location-1 {
+  margin-bottom: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 25px;
+  color: #00142D;
+}
+.compra .container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.compra .supermarket-name {
+  position: absolute;
+  left: 42px;
+  top: 5.5px;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.compra .frame-3 {
+  border-radius: 30px;
+  border: 1px solid #D0D0D0;
+  background: #CCCCCC;
+  position: relative;
+  margin: 0 0 14px 37px;
+  display: flex;
+  padding: 54px 32.2px 29px 41px;
+  box-sizing: border-box;
+  position: relative;
+  top: 150px;
+}
+.compra .image-41 {
+  background: url('./images/image_4.png') 50% / cover no-repeat;
+  margin: 16px 5px 14px 0;
+  width: 26px;
+  height: 35px;
+}
+.compra .supermarkt-location-2 {
+  margin: 1px 11.4px 0 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 25px;
+  color: #00142D;
+}
+.compra .image-51 {
+  background: url('./images/image_6.png') 50% / cover no-repeat;
+  margin: 2px 8px 3px 0;
+  width: 61px;
+  height: 60px;
+}
+.compra .supermarkt-location-3 {
+  margin-bottom: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 25px;
+  color: #00142D;
+}
+.compra .container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.compra .supermarket-name-1 {
+  position: absolute;
+  left: 42px;
+  top: 5.5px;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.compra .frame-4 {
+  border-radius: 30px;
+  border: 1px solid #D0D0D0;
+  background: #CCCCCC;
+  position: relative;
+  margin: 0 0 14px 37px;
+  display: flex;
+  padding: 54px 39.3px 29px 41px;
+  box-sizing: border-box;
+  position: relative;
+  top: 150px;
+}
+.compra .image-42 {
+  background: url('./images/image_4.png') 50% / cover no-repeat;
+  margin: 15px 5px 14px 0;
+  width: 26px;
+  height: 35px;
+}
+.compra .supermarkt-location-4 {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 25px;
+  color: #00142D;
+}
+.compra .container-3 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.compra .image-52 {
+  background: url('./images/image_6.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 61px;
+  height: 60px;
+}
+.compra .supermarkt-location-5 {
+  margin: 14px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 25px;
+  color: #00142D;
+}
+.compra .container-5 {
+  margin: 1px 0 3px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.compra .container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 680.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.compra .supermarket-name-2 {
+  position: absolute;
+  left: 42px;
+  top: 5.5px;
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.compra .frame-5 {
+  border-radius: 30px;
+  border: 1px solid #D0D0D0;
+  background: #CCCCCC;
+  position: relative;
+  margin-left: 37px;
+  padding: 55px 41px 29px 41px;
+  width: 843px;
+  box-sizing: border-box;
+  position: relative;
+  top: 150px;
+}
+.compra {
+  background: #FAFCEE;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 59px 228px 21px;
+  width: 960px;
+  box-sizing: border-box;
+}
+.fridge-finds a {
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto del contenedor padre */
+  cursor: pointer; /* Cambia el cursor a pointer para indicar que es clickable */
+}

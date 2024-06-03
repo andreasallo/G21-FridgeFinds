@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://wallpaper-house.com/data/out/7/wallpaper2you_170152.jpg') no-repeat center center fixed; /* Aquí especificas la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  color: white; /* Ajusta el color del texto para que sea visible sobre el fondo oscuro */
+}
+
+.header {
+  position: relative;
+  width: 1000px; /* Ancho del contenedor */
+  height: auto; /* Altura del contenedor basada en su contenido */
+ 
+  border-radius: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+  overflow: hidden; /* Para que los elementos no sobresalgan del contenedor */
+  border: px solid rgb(245, 245, 245); /* Añade un borde blanco con transparencia */
+}
+
+.lista-de-la-compra-3 .ff-fri-2 {
+  background: url('./images/ff_fri_2.jpeg') 50% / cover no-repeat;
+  margin-right: 0.5px;
+  width: 134px;
+  height: 135px;
+}
+.lista-de-la-compra-3 .fridge-finds {
+  margin: 67.5px 0 17.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Racing Sans One';
+  font-weight: 400;
+  font-size: 40px;
+  color: #00142D;
+}
+.lista-de-la-compra-3 .container-1 {
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.lista-de-la-compra-3 .container {
+  border-radius: 30px;
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 72px 84px 71px;
+  display: flex;
+  padding: 71px 410.4px 0 0;
+  width: 771px;
+  height: 873px;
+  box-sizing: border-box;
+}
+.lista-de-la-compra-3 .add-element {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFFFFF;
+  
+}
+
+.lista-de-la-compra-3 .delete-element {
+  overflow-wrap: break-word;
+  font-family: 'Radley';
+  font-weight: 400;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.lista-de-la-compra-3 {
+  background: #FAFCEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 23px 146px 23px;
+  width: 960px;
+  box-sizing: border-box;
+}
+/* Agrega tus estilos CSS personalizados aquí */
+.lista-de-la-compra-3 .add-element, 
+.lista-de-la-compra-3 .delete-element {
+    background-color: #0d0b83; /* Color de fondo por defecto */
+    color: #ffffff; /* Color del texto */
+    border-radius: 6%;
+    width: 400px;  /* Increase the size of the button */
+    height: 100px; /* Increase the size of the button */
+    
+    
+}
+.fridge-finds a {
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto del contenedor padre */
+  cursor: pointer; /* Cambia el cursor a pointer para indicar que es clickable */
+}
+
+/* Ajusta los estilos de los botones al pasar el ratón sobre ellos */
+.lista-de-la-compra-3 .add-element:hover, 
+.lista-de-la-compra-3 .delete-element:hover {
+    background-color: #707479; /* Nuevo color de fondo al pasar el ratón sobre el botón */
+    
+}
+/* Estilos para la lista de la compra */
+#shopping-list {
+  list-style-type: none; /* Quita los marcadores de lista */
+  padding: 0; /* Elimina el relleno predeterminado */
+  margin: 0; /* Elimina el margen predeterminado */
+  max-width: 600px; /* Define un ancho máximo para la lista */
+  margin: 20px auto; /* Centra la lista en la página */
+}
+
+#shopping-list li {
+  padding: 15px 20px; /* Añade espacio entre elementos de la lista */
+  margin-bottom: 10px; /* Añade espacio debajo de cada elemento */
+  border-radius: 5px; /* Redondea las esquinas de cada elemento */
+  background: #cababa; /* Color de fondo para cada elemento */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+  font-family: 'Georgia', serif; /* Cambia la fuente del texto */
+  font-size: 18px; /* Cambia el tamaño del texto */
+  color: #333; /* Cambia el color del texto */
+  position: relative; /* Posición relativa para permitir el posicionamiento del guion */
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* Añade una transición suave */
+  left: -70px;
+}
+
+#shopping-list li:before {
+  content: "•"; /* Cambia el guion por un punto */
+  position: absolute; /* Posición absoluta para posicionar el punto */
+  left: -20px; /* Ajusta la posición del punto */
+  color: #3498db; /* Cambia el color del punto */
+  font-size: 24px; /* Cambia el tamaño del punto */
+  line-height: 1; /* Ajusta la altura de la línea */
+}
+
+#shopping-list li:hover {
+  background: #e3e3e3; /* Cambia el color de fondo al pasar el mouse */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Aumenta la sombra al pasar el mouse */
+}
+
+
+
+
+/* Estilos para el botón */
+.add-button-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.add-button-container input {
+  padding: 8px;
+  margin-right: 10px;
+  
+}
+
+.add-button-container button {
+  padding: 8px 16px;
+  background-color: #091297;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button-container button:hover {
+  background-color: #000000;
+}
+.add-button-container {
+  margin-top: -50px; /* Ajusta el margen superior para mover el contenedor hacia arriba */
+}
+
