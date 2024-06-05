@@ -1,0 +1,3 @@
+[submodule "FridgeFindsMobile"]
+	path = FridgeFindsMobile
+	url = https://github.com/RomanAtanasiu/FridgeFindsMobile.git
